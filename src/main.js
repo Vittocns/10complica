@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Close mobile menu when clicking a link
     mobileMenu.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
-        mobileMenu.classList.hidden = true;
+        mobileMenu.classList.add('hidden');
       });
     });
   }
