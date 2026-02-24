@@ -125,20 +125,13 @@
                 <!-- Hero Visual Mock -->
                 <div class="relative fade-up delay-200 hidden lg:block">
                     <div class="bg-white border border-brand-border p-3 relative z-10 shadow-2xl">
-                        <!-- Placeholder for Hero Image/Mockup -->
-                        <div class="aspect-[4/5] bg-gray-50 overflow-hidden relative flex items-center justify-center">
-                            <!-- SUBSTITUIR: src pela imagem real do mockup do curso -->
-                            <img src="https://picsum.photos/seed/editorial/800/1000" alt="Mockup do Curso (10)COMPLICA" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" referrerpolicy="no-referrer">
+                        <div class="aspect-[4/5] bg-gray-50 overflow-hidden relative">
+                            <!-- FOTO DO DR. MARCELO (HERO) -->
+                            <img src="/assets/images/dr-marcelo-hero.jpg" alt="Dr. Marcelo Brito" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" onerror="this.src='https://picsum.photos/seed/marcelo/800/1000'">
                             
-                            <!-- Overlay UI elements -->
-                            <div class="absolute bottom-10 left-10 right-10 bg-white border border-brand-black p-6 flex items-center gap-6">
-                                <div class="w-12 h-12 bg-brand flex items-center justify-center text-white">
-                                    <i data-lucide="play" class="w-5 h-5 ml-1"></i>
-                                </div>
-                                <div>
-                                    <p class="font-bold text-xs uppercase tracking-widest text-brand-black">Acesso Imediato</p>
-                                    <p class="text-[10px] uppercase tracking-widest text-gray-500 mt-1">Assista de onde quiser</p>
-                                </div>
+                            <!-- Selo de Autoridade Minimalista -->
+                            <div class="absolute bottom-0 right-0 bg-brand text-white p-6">
+                                <p class="text-[10px] font-bold uppercase tracking-[0.3em]">Respaldo Médico</p>
                             </div>
                         </div>
                     </div>
@@ -162,8 +155,9 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
                 <!-- Card 1 -->
                 <div class="fade-up">
-                    <div class="text-brand mb-6">
-                        <i data-lucide="book-open" class="w-6 h-6"></i>
+                    <div class="mb-6 w-12 h-12">
+                        <img src="/assets/images/modulo-1.png" alt="E-book Base" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                        <div class="hidden text-brand"><i data-lucide="book-open" class="w-6 h-6"></i></div>
                     </div>
                     <h3 class="editorial-heading text-xl mb-3 text-brand-black">1. E-book Base</h3>
                     <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Base teórica clara, sem enrolação</p>
@@ -172,8 +166,9 @@
 
                 <!-- Card 2 -->
                 <div class="fade-up delay-100">
-                    <div class="text-brand mb-6">
-                        <i data-lucide="check-square" class="w-6 h-6"></i>
+                    <div class="mb-6 w-12 h-12">
+                        <img src="/assets/images/modulo-2.png" alt="Indicações" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                        <div class="hidden text-brand"><i data-lucide="check-square" class="w-6 h-6"></i></div>
                     </div>
                     <h3 class="editorial-heading text-xl mb-3 text-brand-black">2. Indicações</h3>
                     <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Quando a extensão pode continuar</p>
@@ -182,8 +177,9 @@
 
                 <!-- Card 3 -->
                 <div class="fade-up delay-200">
-                    <div class="text-brand mb-6">
-                        <i data-lucide="alert-triangle" class="w-6 h-6"></i>
+                    <div class="mb-6 w-12 h-12">
+                        <img src="/assets/images/modulo-3.png" alt="Contraindicações" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                        <div class="hidden text-brand"><i data-lucide="alert-triangle" class="w-6 h-6"></i></div>
                     </div>
                     <h3 class="editorial-heading text-xl mb-3 text-brand-black">3. Contraindicações</h3>
                     <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Decisão segura, sem achismo</p>
@@ -192,8 +188,9 @@
 
                 <!-- Card 4 -->
                 <div class="fade-up">
-                    <div class="text-brand mb-6">
-                        <i data-lucide="stethoscope" class="w-6 h-6"></i>
+                    <div class="mb-6 w-12 h-12">
+                        <img src="/assets/images/modulo-4.png" alt="Ajuda médica" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                        <div class="hidden text-brand"><i data-lucide="stethoscope" class="w-6 h-6"></i></div>
                     </div>
                     <h3 class="editorial-heading text-xl mb-3 text-brand-black">4. Ajuda médica</h3>
                     <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Quando é caso clínico</p>
@@ -202,8 +199,9 @@
 
                 <!-- Card 5 -->
                 <div class="fade-up delay-100">
-                    <div class="text-brand mb-6">
-                        <i data-lucide="droplets" class="w-6 h-6"></i>
+                    <div class="mb-6 w-12 h-12">
+                        <img src="/assets/images/modulo-5.png" alt="Higiene" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                        <div class="hidden text-brand"><i data-lucide="droplets" class="w-6 h-6"></i></div>
                     </div>
                     <h3 class="editorial-heading text-xl mb-3 text-brand-black">5. Higiene</h3>
                     <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Protocolos que protegem</p>
@@ -212,8 +210,9 @@
 
                 <!-- Card 6 -->
                 <div class="fade-up delay-200">
-                    <div class="text-brand mb-6">
-                        <i data-lucide="leaf" class="w-6 h-6"></i>
+                    <div class="mb-6 w-12 h-12">
+                        <img src="/assets/images/modulo-6.png" alt="Saúde dos fios" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                        <div class="hidden text-brand"><i data-lucide="leaf" class="w-6 h-6"></i></div>
                     </div>
                     <h3 class="editorial-heading text-xl mb-3 text-brand-black">6. Saúde dos fios</h3>
                     <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Cílios saudáveis sustentam técnica</p>
@@ -222,8 +221,9 @@
 
                 <!-- Card 7 -->
                 <div class="fade-up">
-                    <div class="text-brand mb-6">
-                        <i data-lucide="eye-off" class="w-6 h-6"></i>
+                    <div class="mb-6 w-12 h-12">
+                        <img src="/assets/images/modulo-7.png" alt="Complicações" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                        <div class="hidden text-brand"><i data-lucide="eye-off" class="w-6 h-6"></i></div>
                     </div>
                     <h3 class="editorial-heading text-xl mb-3 text-brand-black">7. Complicações</h3>
                     <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">O que mais acontece</p>
@@ -232,8 +232,9 @@
 
                 <!-- Card 8 -->
                 <div class="fade-up delay-100">
-                    <div class="text-brand mb-6">
-                        <i data-lucide="package" class="w-6 h-6"></i>
+                    <div class="mb-6 w-12 h-12">
+                        <img src="/assets/images/modulo-8.png" alt="Materiais" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                        <div class="hidden text-brand"><i data-lucide="package" class="w-6 h-6"></i></div>
                     </div>
                     <h3 class="editorial-heading text-xl mb-3 text-brand-black">8. Materiais</h3>
                     <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">O que usar e por quê</p>
@@ -242,8 +243,9 @@
 
                 <!-- Card 9 -->
                 <div class="fade-up delay-200">
-                    <div class="text-brand mb-6">
-                        <i data-lucide="heart" class="w-6 h-6"></i>
+                    <div class="mb-6 w-12 h-12">
+                        <img src="/assets/images/modulo-9.png" alt="Autocuidado" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                        <div class="hidden text-brand"><i data-lucide="heart" class="w-6 h-6"></i></div>
                     </div>
                     <h3 class="editorial-heading text-xl mb-3 text-brand-black">9. Autocuidado</h3>
                     <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Quem cuida também se protege</p>
@@ -343,38 +345,38 @@
                 <p class="text-xs font-bold uppercase tracking-widest text-gray-400">Não é só sobre fazer cílios. É sobre autoridade.</p>
             </div>
 
-            <!-- Grid de Prints (Minimalist) -->
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8 fade-up delay-100">
+            <!-- Grid de Prints (Masonry-lite) -->
+            <div class="columns-1 sm:columns-2 lg:columns-4 gap-8 space-y-8 fade-up delay-100">
                 <!-- Print 1 -->
-                <div class="flex flex-col gap-6">
-                    <div class="aspect-[9/16] bg-gray-50 overflow-hidden border border-brand-border relative group">
-                        <img src="https://picsum.photos/seed/editorial1/400/700" alt="Depoimento de aluna" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" referrerpolicy="no-referrer">
+                <div class="break-inside-avoid">
+                    <div class="bg-gray-50 border border-brand-border relative group">
+                        <img src="/assets/images/print-1.jpg" alt="Depoimento de aluna" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-500" onerror="this.src='https://picsum.photos/seed/p1/400/600'">
                     </div>
-                    <p class="text-[10px] text-center text-gray-500 font-bold uppercase tracking-widest leading-relaxed">"Antes do curso: medo. Depois do curso: clareza."</p>
+                    <p class="mt-4 text-[10px] text-center text-gray-500 font-bold uppercase tracking-widest leading-relaxed">"Antes do curso: medo. Depois do curso: clareza."</p>
                 </div>
 
                 <!-- Print 2 -->
-                <div class="flex flex-col gap-6">
-                    <div class="aspect-[9/16] bg-gray-50 overflow-hidden border border-brand-border relative group">
-                        <img src="https://picsum.photos/seed/editorial2/400/700" alt="Depoimento de aluna" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" referrerpolicy="no-referrer">
+                <div class="break-inside-avoid">
+                    <div class="bg-gray-50 border border-brand-border relative group">
+                        <img src="/assets/images/print-2.jpg" alt="Depoimento de aluna" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-500" onerror="this.src='https://picsum.photos/seed/p2/400/400'">
                     </div>
-                    <p class="text-[10px] text-center text-gray-500 font-bold uppercase tracking-widest leading-relaxed">"Quando a cliente confia, ela não questiona."</p>
+                    <p class="mt-4 text-[10px] text-center text-gray-500 font-bold uppercase tracking-widest leading-relaxed">"Quando a cliente confia, ela não questiona."</p>
                 </div>
 
                 <!-- Print 3 -->
-                <div class="flex flex-col gap-6">
-                    <div class="aspect-[9/16] bg-gray-50 overflow-hidden border border-brand-border relative group">
-                        <img src="https://picsum.photos/seed/editorial3/400/700" alt="Depoimento de aluna" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" referrerpolicy="no-referrer">
+                <div class="break-inside-avoid">
+                    <div class="bg-gray-50 border border-brand-border relative group">
+                        <img src="/assets/images/print-3.jpg" alt="Depoimento de aluna" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-500" onerror="this.src='https://picsum.photos/seed/p3/400/800'">
                     </div>
-                    <p class="text-[10px] text-center text-gray-500 font-bold uppercase tracking-widest leading-relaxed">"Conhecimento muda a postura profissional."</p>
+                    <p class="mt-4 text-[10px] text-center text-gray-500 font-bold uppercase tracking-widest leading-relaxed">"Conhecimento muda a postura profissional."</p>
                 </div>
 
                 <!-- Print 4 -->
-                <div class="flex flex-col gap-6">
-                    <div class="aspect-[9/16] bg-gray-50 overflow-hidden border border-brand-border relative group">
-                        <img src="https://picsum.photos/seed/editorial4/400/700" alt="Depoimento de aluna" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" referrerpolicy="no-referrer">
+                <div class="break-inside-avoid">
+                    <div class="bg-gray-50 border border-brand-border relative group">
+                        <img src="/assets/images/print-4.jpg" alt="Depoimento de aluna" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-500" onerror="this.src='https://picsum.photos/seed/p4/400/500'">
                     </div>
-                    <p class="text-[10px] text-center text-gray-500 font-bold uppercase tracking-widest leading-relaxed">"Minha agenda lotou pela segurança que passo."</p>
+                    <p class="mt-4 text-[10px] text-center text-gray-500 font-bold uppercase tracking-widest leading-relaxed">"Minha agenda lotou pela segurança que passo."</p>
                 </div>
             </div>
 
@@ -456,7 +458,7 @@
 
                 <div class="order-1 md:order-2 relative fade-up delay-100">
                     <div class="aspect-[4/5] bg-gray-50 overflow-hidden relative z-10 border border-brand-border p-3 shadow-2xl">
-                        <img src="https://picsum.photos/seed/doctor_editorial/800/1000" alt="Dr. Marcelo Brito" class="w-full h-full object-cover grayscale" referrerpolicy="no-referrer">
+                        <img src="/assets/images/dr-marcelo-sobre.jpg" alt="Dr. Marcelo Brito" class="w-full h-full object-cover grayscale" onerror="this.src='https://picsum.photos/seed/doctor_editorial/800/1000'">
                     </div>
                 </div>
 
