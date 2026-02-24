@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-brand-main: #95215d;
+  --color-brand-black: #000000;
+  --color-brand-graphite: #1A1A1A;
+  --color-brand-border: #EEEEEE;
+}
+
+@utility text-brand {
+  color: var(--color-brand-main);
+}
+
+@utility bg-brand {
+  background-color: var(--color-brand-main);
+}
+
+@utility border-brand {
+  border-color: var(--color-brand-main);
+}
+
+@utility editorial-heading {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+@utility fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@utility sticky-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  background: #ffffff;
+  border-top: 1px solid #000000;
+  z-index: 50;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+  &.visible {
+    transform: translateY(0);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-brand-graphite);
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  color: var(--color-brand-black);
+}
+
+/* Accordion */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.accordion-item.active .accordion-content {
+  max-height: 500px;
+}
+
+.accordion-item.active .accordion-icon {
+  transform: rotate(180deg);
+}
+
+/* Custom Dividers */
+.section-divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-brand-border);
+}

@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(10)COMPLICA - Dr. Marcelo Brito</title>
+    <meta name="description" content="Aprenda a identificar, prevenir e resolver intercorrências de saúde ocular na prática lash, com respaldo médico e segurança profissional.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS via Vite -->
+    <link rel="stylesheet" href="/src/style.css">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-white antialiased relative">
+
+    <!-- Sticky Mobile CTA -->
+    <div id="sticky-cta" class="sticky-cta md:hidden flex justify-center shadow-none">
+        <a href="https://pay.hotmart.com/K68339755C?checkoutMode=10" target="_blank" rel="noopener noreferrer" class="w-full max-w-sm bg-brand text-white font-bold py-4 px-6 rounded-none text-center uppercase tracking-widest text-xs transition-all">
+            Garantir minha vaga agora
+        </a>
+    </div>
+
+    <!-- A) Header -->
+    <header class="fixed w-full top-0 z-40 bg-white/95 border-b border-brand-border transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-24">
+                <!-- Logo -->
+                <div class="flex flex-col">
+                    <span class="editorial-heading text-2xl text-brand-black tracking-tight">Dr. Marcelo Brito</span>
+                    <span class="text-[10px] text-brand font-bold uppercase tracking-[0.2em]">Oftalmologia aplicada à prática lash</span>
+                </div>
+
+                <!-- Desktop Menu -->
+                <nav class="hidden lg:flex space-x-10 items-center">
+                    <a href="#conteudo" class="text-xs font-bold uppercase tracking-widest text-brand-black hover:text-brand transition-colors">Conteúdo</a>
+                    <a href="#bonus" class="text-xs font-bold uppercase tracking-widest text-brand-black hover:text-brand transition-colors">Bônus</a>
+                    <a href="#provas" class="text-xs font-bold uppercase tracking-widest text-brand-black hover:text-brand transition-colors">Provas</a>
+                    <a href="#garantia" class="text-xs font-bold uppercase tracking-widest text-brand-black hover:text-brand transition-colors">Garantia</a>
+                    <a href="#sobre" class="text-xs font-bold uppercase tracking-widest text-brand-black hover:text-brand transition-colors">Sobre</a>
+                    <a href="#faq" class="text-xs font-bold uppercase tracking-widest text-brand-black hover:text-brand transition-colors">FAQ</a>
+                    <a href="#oferta" class="bg-brand text-white px-8 py-3 rounded-none font-bold text-xs uppercase tracking-widest hover:bg-brand/90 transition-all">
+                        Garantir vaga
+                    </a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="lg:hidden p-2 text-brand-black">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-brand-border absolute w-full shadow-2xl">
+            <div class="px-4 pt-4 pb-10 space-y-4 flex flex-col">
+                <a href="#conteudo" class="text-xs font-bold uppercase tracking-widest text-brand-black py-2">Conteúdo</a>
+                <a href="#bonus" class="text-xs font-bold uppercase tracking-widest text-brand-black py-2">Bônus</a>
+                <a href="#provas" class="text-xs font-bold uppercase tracking-widest text-brand-black py-2">Provas</a>
+                <a href="#garantia" class="text-xs font-bold uppercase tracking-widest text-brand-black py-2">Garantia</a>
+                <a href="#sobre" class="text-xs font-bold uppercase tracking-widest text-brand-black py-2">Sobre</a>
+                <a href="#oferta" class="text-xs font-bold uppercase tracking-widest text-brand py-2">Garantir Vaga</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- B) HERO SECTION -->
+    <section class="relative pt-40 pb-24 lg:pt-56 lg:pb-40 overflow-hidden bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                
+                <!-- Hero Text -->
+                <div class="max-w-2xl fade-up">
+                    <div class="inline-flex items-center space-x-3 text-brand mb-8">
+                        <div class="w-12 h-[1px] bg-brand"></div>
+                        <span class="text-[10px] font-bold uppercase tracking-[0.3em]">Turma atual / Acesso imediato</span>
+                    </div>
+                    
+                    <h1 class="editorial-heading text-5xl sm:text-6xl lg:text-7xl leading-[1.05] mb-10 text-brand-black">
+                        As intercorrências que você mais teme <span class="text-brand italic">não precisam</span> mais te paralisar.
+                    </h1>
+                    
+                    <p class="text-lg text-brand-graphite mb-12 leading-relaxed max-w-xl">
+                        Aprenda a identificar, prevenir e resolver intercorrências de saúde ocular na prática lash, com respaldo médico e segurança profissional.
+                    </p>
+
+                    <!-- Authority Card -->
+                    <div class="border border-brand-border p-8 mb-12 flex items-start gap-6">
+                        <div class="shrink-0">
+                            <i data-lucide="shield" class="w-6 h-6 text-brand"></i>
+                        </div>
+                        <p class="text-sm font-medium leading-relaxed">
+                            Curso desenvolvido por <strong class="text-brand-black">Dr. Marcelo Brito</strong>, oftalmologista, o mestre da saúde ocular aplicada à extensão de cílios.
+                        </p>
+                    </div>
+
+                    <p class="text-xl editorial-heading italic text-brand-black mb-12 border-l-2 border-brand pl-8 py-2">
+                        "Você não precisa escolher entre medo ou improviso. Você pode escolher conhecimento, critério e segurança!"
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-6">
+                        <a id="hero-cta" href="https://pay.hotmart.com/K68339755C?checkoutMode=10" target="_blank" rel="noopener noreferrer" class="bg-brand text-white font-bold text-xs uppercase tracking-widest py-5 px-10 rounded-none text-center hover:bg-brand/90 transition-all flex items-center justify-center gap-3">
+                            Quero atuar com segurança
+                            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                        <a href="#conteudo" class="bg-white text-brand-black border border-brand-black font-bold text-xs uppercase tracking-widest py-5 px-10 rounded-none text-center hover:bg-brand-black hover:text-white transition-all flex items-center justify-center">
+                            Ver o que vou aprender
+                        </a>
+                    </div>
+
+                    <!-- Trust Row -->
+                    <div class="mt-16 flex flex-wrap gap-8 items-center text-[10px] font-bold uppercase tracking-widest text-gray-400">
+                        <div class="flex items-center gap-2">Respaldo médico</div>
+                        <div class="flex items-center gap-2">Aplicação prática</div>
+                        <div class="flex items-center gap-2">Garantia 7 dias</div>
+                        <div class="flex items-center gap-2">Certificado</div>
+                    </div>
+                </div>
+
+                <!-- Hero Visual Mock -->
+                <div class="relative fade-up delay-200 hidden lg:block">
+                    <div class="bg-white border border-brand-border p-3 relative z-10 shadow-2xl">
+                        <!-- Placeholder for Hero Image/Mockup -->
+                        <div class="aspect-[4/5] bg-gray-50 overflow-hidden relative flex items-center justify-center">
+                            <!-- SUBSTITUIR: src pela imagem real do mockup do curso -->
+                            <img src="https://picsum.photos/seed/editorial/800/1000" alt="Mockup do Curso (10)COMPLICA" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" referrerpolicy="no-referrer">
+                            
+                            <!-- Overlay UI elements -->
+                            <div class="absolute bottom-10 left-10 right-10 bg-white border border-brand-black p-6 flex items-center gap-6">
+                                <div class="w-12 h-12 bg-brand flex items-center justify-center text-white">
+                                    <i data-lucide="play" class="w-5 h-5 ml-1"></i>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-xs uppercase tracking-widest text-brand-black">Acesso Imediato</p>
+                                    <p class="text-[10px] uppercase tracking-widest text-gray-500 mt-1">Assista de onde quiser</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- C) MODULES SECTION -->
+    <section id="conteudo" class="py-32 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-24 fade-up">
+                <h2 class="editorial-heading text-4xl md:text-5xl text-brand-black mb-6">
+                    Tudo o que você precisa para <span class="text-brand italic">deixar de improvisar</span> e começar a agir com segurança
+                </h2>
+                <div class="w-16 h-[1px] bg-brand mx-auto mb-6"></div>
+                <p class="text-xs font-bold uppercase tracking-widest text-gray-400">O que você vai encontrar no (10)COMPLICA:</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
+                <!-- Card 1 -->
+                <div class="fade-up">
+                    <div class="text-brand mb-6">
+                        <i data-lucide="book-open" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="editorial-heading text-xl mb-3 text-brand-black">1. E-book Base</h3>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Base teórica clara, sem enrolação</p>
+                    <p class="text-sm text-brand-graphite leading-relaxed">Entenda o que realmente acontece no olho da cliente, por que surgem intercorrências e como agir com critério.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="fade-up delay-100">
+                    <div class="text-brand mb-6">
+                        <i data-lucide="check-square" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="editorial-heading text-xl mb-3 text-brand-black">2. Indicações</h3>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Quando a extensão pode continuar</p>
+                    <p class="text-sm text-brand-graphite leading-relaxed">Aprenda a diferenciar riscos reais de mitos que só geram medo e perda de cliente.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="fade-up delay-200">
+                    <div class="text-brand mb-6">
+                        <i data-lucide="alert-triangle" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="editorial-heading text-xl mb-3 text-brand-black">3. Contraindicações</h3>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Decisão segura, sem achismo</p>
+                    <p class="text-sm text-brand-graphite leading-relaxed">Saiba exatamente quando liberar, quando pausar e quando encaminhar para o médico.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="fade-up">
+                    <div class="text-brand mb-6">
+                        <i data-lucide="stethoscope" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="editorial-heading text-xl mb-3 text-brand-black">4. Ajuda médica</h3>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Quando é caso clínico</p>
+                    <p class="text-sm text-brand-graphite leading-relaxed">Entenda os limites da atuação da lash sem ultrapassar fronteiras profissionais.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="fade-up delay-100">
+                    <div class="text-brand mb-6">
+                        <i data-lucide="droplets" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="editorial-heading text-xl mb-3 text-brand-black">5. Higiene</h3>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Protocolos que protegem</p>
+                    <p class="text-sm text-brand-graphite leading-relaxed">Produtos, hábitos e cuidados que evitam 90% das intercorrências comuns.</p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="fade-up delay-200">
+                    <div class="text-brand mb-6">
+                        <i data-lucide="leaf" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="editorial-heading text-xl mb-3 text-brand-black">6. Saúde dos fios</h3>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Cílios saudáveis sustentam técnica</p>
+                    <p class="text-sm text-brand-graphite leading-relaxed">Entenda o ciclo dos fios e como evitar danos a longo prazo.</p>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="fade-up">
+                    <div class="text-brand mb-6">
+                        <i data-lucide="eye-off" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="editorial-heading text-xl mb-3 text-brand-black">7. Complicações</h3>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">O que mais acontece</p>
+                    <p class="text-sm text-brand-graphite leading-relaxed">Identificação, prevenção e resolução correta das intercorrências mais comuns no estúdio.</p>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="fade-up delay-100">
+                    <div class="text-brand mb-6">
+                        <i data-lucide="package" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="editorial-heading text-xl mb-3 text-brand-black">8. Materiais</h3>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">O que usar e por quê</p>
+                    <p class="text-sm text-brand-graphite leading-relaxed">Nada de gastar dinheiro errado ou seguir indicação sem base científica.</p>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="fade-up delay-200">
+                    <div class="text-brand mb-6">
+                        <i data-lucide="heart" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="editorial-heading text-xl mb-3 text-brand-black">9. Autocuidado</h3>
+                    <p class="text-[10px] font-bold uppercase tracking-widest text-brand mb-4">Quem cuida também se protege</p>
+                    <p class="text-sm text-brand-graphite leading-relaxed">Um módulo exclusivo para a saúde ocular da própria profissional lash.</p>
+                </div>
+            </div>
+
+            <div class="mt-24 text-center fade-up">
+                <a href="https://pay.hotmart.com/K68339755C?checkoutMode=10" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 bg-brand text-white font-bold text-xs uppercase tracking-widest py-5 px-12 rounded-none hover:bg-brand/90 transition-all">
+                    Quero ter acesso a tudo isso
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- D) BONUS SECTION -->
+    <section id="bonus" class="py-32 bg-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-24 items-start">
+                
+                <div class="lg:col-span-5 fade-up">
+                    <h2 class="editorial-heading text-4xl md:text-5xl mb-8 leading-tight text-brand-black">
+                        Você não vai aprender sozinha. Vai ter apoio, direção e estrutura.
+                    </h2>
+                    <p class="text-brand-graphite text-lg mb-12 leading-relaxed opacity-80">
+                        Além do treinamento completo, você entra em um ecossistema de suporte que fortalece sua segurança profissional.
+                    </p>
+                    
+                    <div class="border-l-2 border-brand pl-8 py-2 mb-12">
+                        <p class="text-xl editorial-heading italic text-brand-black">
+                            "Isso não é só um curso. É um posicionamento profissional."
+                        </p>
+                    </div>
+
+                    <a href="https://pay.hotmart.com/K68339755C?checkoutMode=10" target="_blank" rel="noopener noreferrer" class="hidden lg:inline-flex items-center justify-center gap-3 bg-brand text-white font-bold text-xs uppercase tracking-widest py-5 px-10 rounded-none hover:bg-brand/90 transition-all">
+                        Garantir Vaga + Bônus
+                    </a>
+                </div>
+
+                <div class="lg:col-span-7 grid sm:grid-cols-2 gap-x-8 gap-y-12 fade-up delay-100">
+                    <!-- Bonus Items -->
+                    <div class="border-b border-brand-border pb-8">
+                        <div class="text-brand mb-4"><i data-lucide="users" class="w-5 h-5"></i></div>
+                        <h4 class="editorial-heading text-lg mb-3">Comunidade Exclusiva</h4>
+                        <p class="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">Para troca real de experiências e networking de alto nível.</p>
+                    </div>
+                    <div class="border-b border-brand-border pb-8">
+                        <div class="text-brand mb-4"><i data-lucide="message-circle" class="w-5 h-5"></i></div>
+                        <h4 class="editorial-heading text-lg mb-3">Grupo no Telegram</h4>
+                        <p class="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">Canal oficial para tirar dúvidas práticas do dia a dia.</p>
+                    </div>
+                    <div class="border-b border-brand-border pb-8">
+                        <div class="text-brand mb-4"><i data-lucide="shield" class="w-5 h-5"></i></div>
+                        <h4 class="editorial-heading text-lg mb-3">Aula de Biossegurança</h4>
+                        <p class="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">Conteúdo especial aplicado diretamente à rotina lash.</p>
+                    </div>
+                    <div class="border-b border-brand-border pb-8">
+                        <div class="text-brand mb-4"><i data-lucide="file-text" class="w-5 h-5"></i></div>
+                        <h4 class="editorial-heading text-lg mb-3">Ficha de Anamnese</h4>
+                        <p class="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">Modelo comentado e explicado passo a passo pelo Dr. Marcelo.</p>
+                    </div>
+                    <div class="border-b border-brand-border pb-8">
+                        <div class="text-brand mb-4"><i data-lucide="award" class="w-5 h-5"></i></div>
+                        <h4 class="editorial-heading text-lg mb-3">Certificado Oficial</h4>
+                        <p class="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">Certificado de conclusão em saúde ocular para seu estúdio.</p>
+                    </div>
+                    <div class="border-b border-brand-border pb-8">
+                        <div class="text-brand mb-4"><i data-lucide="star" class="w-5 h-5"></i></div>
+                        <h4 class="editorial-heading text-lg mb-3">Selo Promotora</h4>
+                        <p class="text-xs text-gray-500 leading-relaxed uppercase tracking-wider">Logo oficial de Promotora de Saúde Ocular para usar em suas redes.</p>
+                    </div>
+                </div>
+
+                <div class="lg:hidden mt-8 text-center w-full fade-up">
+                    <a href="https://pay.hotmart.com/K68339755C?checkoutMode=10" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center gap-3 bg-brand text-white font-bold text-xs uppercase tracking-widest py-5 px-8 rounded-none hover:bg-brand/90 transition-all">
+                        Garantir Vaga + Bônus
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- E) SOCIAL PROOF -->
+    <section id="provas" class="py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-24 fade-up">
+                <h2 class="editorial-heading text-4xl md:text-5xl text-brand-black mb-6">
+                    O que muda quando a lash entende <span class="text-brand italic">saúde ocular de verdade</span>
+                </h2>
+                <div class="w-16 h-[1px] bg-brand mx-auto mb-6"></div>
+                <p class="text-xs font-bold uppercase tracking-widest text-gray-400">Não é só sobre fazer cílios. É sobre autoridade.</p>
+            </div>
+
+            <!-- Grid de Prints (Minimalist) -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8 fade-up delay-100">
+                <!-- Print 1 -->
+                <div class="flex flex-col gap-6">
+                    <div class="aspect-[9/16] bg-gray-50 overflow-hidden border border-brand-border relative group">
+                        <img src="https://picsum.photos/seed/editorial1/400/700" alt="Depoimento de aluna" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" referrerpolicy="no-referrer">
+                    </div>
+                    <p class="text-[10px] text-center text-gray-500 font-bold uppercase tracking-widest leading-relaxed">"Antes do curso: medo. Depois do curso: clareza."</p>
+                </div>
+
+                <!-- Print 2 -->
+                <div class="flex flex-col gap-6">
+                    <div class="aspect-[9/16] bg-gray-50 overflow-hidden border border-brand-border relative group">
+                        <img src="https://picsum.photos/seed/editorial2/400/700" alt="Depoimento de aluna" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" referrerpolicy="no-referrer">
+                    </div>
+                    <p class="text-[10px] text-center text-gray-500 font-bold uppercase tracking-widest leading-relaxed">"Quando a cliente confia, ela não questiona."</p>
+                </div>
+
+                <!-- Print 3 -->
+                <div class="flex flex-col gap-6">
+                    <div class="aspect-[9/16] bg-gray-50 overflow-hidden border border-brand-border relative group">
+                        <img src="https://picsum.photos/seed/editorial3/400/700" alt="Depoimento de aluna" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" referrerpolicy="no-referrer">
+                    </div>
+                    <p class="text-[10px] text-center text-gray-500 font-bold uppercase tracking-widest leading-relaxed">"Conhecimento muda a postura profissional."</p>
+                </div>
+
+                <!-- Print 4 -->
+                <div class="flex flex-col gap-6">
+                    <div class="aspect-[9/16] bg-gray-50 overflow-hidden border border-brand-border relative group">
+                        <img src="https://picsum.photos/seed/editorial4/400/700" alt="Depoimento de aluna" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" referrerpolicy="no-referrer">
+                    </div>
+                    <p class="text-[10px] text-center text-gray-500 font-bold uppercase tracking-widest leading-relaxed">"Minha agenda lotou pela segurança que passo."</p>
+                </div>
+            </div>
+
+            <div class="mt-24 text-center fade-up">
+                <a href="https://pay.hotmart.com/K68339755C?checkoutMode=10" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 bg-brand text-white font-bold text-xs uppercase tracking-widest py-5 px-12 rounded-none hover:bg-brand/90 transition-all">
+                    Quero ser a próxima a ter esses resultados
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- F) GUARANTEE -->
+    <section id="garantia" class="py-32 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="border border-brand-black p-12 md:p-20 flex flex-col md:flex-row items-center gap-16 fade-up">
+                
+                <div class="shrink-0 relative">
+                    <div class="w-40 h-40 border border-brand-black flex items-center justify-center">
+                        <div class="text-center">
+                            <span class="editorial-heading text-5xl text-brand-black block">7</span>
+                            <span class="text-[10px] font-bold text-brand uppercase tracking-[0.3em]">Dias</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center md:text-left">
+                    <h2 class="editorial-heading text-4xl text-brand-black mb-6">Seu risco é zero.</h2>
+                    <p class="text-brand-graphite mb-8 leading-relaxed opacity-80">
+                        Você tem 7 dias para acessar o conteúdo, assistir às aulas e avaliar com calma. Se sentir que não é para você, devolvemos 100% do valor, sem perguntas.
+                    </p>
+                    <p class="font-bold text-brand text-xs uppercase tracking-widest">
+                        Quem entrega segurança de verdade não tem medo de garantia.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- G) ABOUT -->
+    <section id="sobre" class="py-32 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-24 items-center">
+                
+                <div class="order-2 md:order-1 fade-up">
+                    <h2 class="editorial-heading text-4xl md:text-5xl text-brand-black mb-10 leading-tight">
+                        Quem está por trás do (10)COMPLICA?
+                    </h2>
+                    
+                    <div class="space-y-6 text-brand-graphite text-lg leading-relaxed mb-12 opacity-80">
+                        <p>
+                            Sou <strong class="text-brand-black">Dr. Marcelo Brito</strong>, oftalmologista, e durante anos atendi complicações que poderiam ter sido evitadas com informação correta.
+                        </p>
+                        <p>
+                            Percebi que o problema não estava nas profissionais, mas na falta de acesso à saúde ocular aplicada à prática lash. O (10)COMPLICA nasceu para mudar isso.
+                        </p>
+                        <p>
+                            Para transformar medo em clareza, insegurança em critério e improviso em responsabilidade.
+                        </p>
+                        <p class="editorial-heading italic text-brand-black border-l-2 border-brand pl-8 py-2">
+                            "Meu compromisso é com a saúde ocular, com a cliente e com a profissional que quer crescer com segurança."
+                        </p>
+                    </div>
+
+                    <div class="flex items-center gap-8">
+                        <div>
+                            <span class="block text-[10px] text-gray-400 uppercase font-bold tracking-widest mb-1">Especialidade</span>
+                            <span class="block font-bold text-brand-black uppercase text-xs tracking-wider">Oftalmologia</span>
+                        </div>
+                        <div class="w-[1px] h-8 bg-brand-border"></div>
+                        <div>
+                            <span class="block text-[10px] text-gray-400 uppercase font-bold tracking-widest mb-1">Foco</span>
+                            <span class="block font-bold text-brand-black uppercase text-xs tracking-wider">Saúde Ocular Lash</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-1 md:order-2 relative fade-up delay-100">
+                    <div class="aspect-[4/5] bg-gray-50 overflow-hidden relative z-10 border border-brand-border p-3 shadow-2xl">
+                        <img src="https://picsum.photos/seed/doctor_editorial/800/1000" alt="Dr. Marcelo Brito" class="w-full h-full object-cover grayscale" referrerpolicy="no-referrer">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- H) OFFER SECTION -->
+    <section id="oferta" class="py-40 bg-brand-black text-white relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-20 fade-up">
+                <h2 class="editorial-heading text-5xl md:text-6xl mb-8 text-white">
+                    Quanto vale trabalhar sem medo?
+                </h2>
+                <p class="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
+                    Você pode continuar lidando com intercorrências no improviso ou investir em conhecimento que te protege todos os dias.
+                </p>
+            </div>
+
+            <div class="bg-white p-12 md:p-20 text-brand-black fade-up delay-100 relative">
+                <div class="text-center mb-12 border-b border-brand-border pb-12">
+                    <p class="text-gray-400 line-through text-lg mb-4">De R$ 1.397,00</p>
+                    <p class="text-xs font-bold uppercase tracking-[0.3em] text-brand mb-4">Por apenas 12x de</p>
+                    <div class="flex items-start justify-center gap-2 text-brand-black">
+                        <span class="editorial-heading text-3xl mt-4">R$</span>
+                        <span class="editorial-heading text-8xl md:text-9xl tracking-tighter">69</span>
+                        <span class="editorial-heading text-3xl mt-4">,56</span>
+                    </div>
+                    <p class="text-gray-400 mt-6 text-sm font-medium">ou R$ 697 à vista</p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-x-12 gap-y-6 mb-16 max-w-2xl mx-auto">
+                    <div class="flex items-center gap-4">
+                        <i data-lucide="check" class="w-4 h-4 text-brand"></i>
+                        <span class="text-xs font-bold uppercase tracking-widest">Curso (10)COMPLICA</span>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i data-lucide="check" class="w-4 h-4 text-brand"></i>
+                        <span class="text-xs font-bold uppercase tracking-widest">6 Bônus Exclusivos</span>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i data-lucide="check" class="w-4 h-4 text-brand"></i>
+                        <span class="text-xs font-bold uppercase tracking-widest">Comunidade VIP</span>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i data-lucide="check" class="w-4 h-4 text-brand"></i>
+                        <span class="text-xs font-bold uppercase tracking-widest">Certificado Oficial</span>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="https://pay.hotmart.com/K68339755C?checkoutMode=10" target="_blank" rel="noopener noreferrer" class="block w-full bg-brand text-white font-bold text-xs uppercase tracking-[0.3em] py-6 px-8 hover:bg-brand/90 transition-all mb-8">
+                        QUERO GARANTIR MINHA VAGA AGORA
+                    </a>
+                    
+                    <div class="flex flex-col md:flex-row items-center justify-center gap-6 text-[10px] font-bold uppercase tracking-widest text-gray-400">
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="lock" class="w-3 h-3"></i>
+                            Compra segura via Hotmart
+                        </div>
+                        <div class="hidden md:block w-1 h-1 bg-gray-200 rounded-full"></div>
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="shield" class="w-3 h-3"></i>
+                            Garantia 7 dias
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- I) FAQ -->
+    <section id="faq" class="py-32 bg-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-20 fade-up">
+                <h2 class="editorial-heading text-4xl text-brand-black mb-4">Perguntas Frequentes</h2>
+                <div class="w-12 h-[1px] bg-brand mx-auto"></div>
+            </div>
+
+            <div class="space-y-0 fade-up delay-100">
+                
+                <!-- FAQ Item 1 -->
+                <div class="accordion-item border-b border-brand-border">
+                    <button class="accordion-button w-full py-8 text-left flex justify-between items-center focus:outline-none" aria-expanded="false">
+                        <span class="font-bold text-xs uppercase tracking-widest text-brand-black pr-8">Esse curso é para iniciantes ou avançadas?</span>
+                        <i data-lucide="plus" class="accordion-icon w-4 h-4 text-brand transition-transform duration-300 shrink-0"></i>
+                    </button>
+                    <div class="accordion-content text-brand-graphite text-sm leading-relaxed opacity-70">
+                        <div class="pb-8">
+                            É para ambas. Se você é iniciante, já começará do jeito certo, evitando erros que custam caro. Se é avançada, vai elevar seu nível de autoridade e segurança, sabendo lidar com casos complexos com respaldo.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="accordion-item border-b border-brand-border">
+                    <button class="accordion-button w-full py-8 text-left flex justify-between items-center focus:outline-none" aria-expanded="false">
+                        <span class="font-bold text-xs uppercase tracking-widest text-brand-black pr-8">Preciso ter formação em saúde?</span>
+                        <i data-lucide="plus" class="accordion-icon w-4 h-4 text-brand transition-transform duration-300 shrink-0"></i>
+                    </button>
+                    <div class="accordion-content text-brand-graphite text-sm leading-relaxed opacity-70">
+                        <div class="pb-8">
+                            Não. O curso foi desenhado exatamente para traduzir o conhecimento médico oftalmológico para a linguagem e a realidade da profissional lash, de forma didática e aplicável.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="accordion-item border-b border-brand-border">
+                    <button class="accordion-button w-full py-8 text-left flex justify-between items-center focus:outline-none" aria-expanded="false">
+                        <span class="font-bold text-xs uppercase tracking-widest text-brand-black pr-8">O curso substitui consulta médica?</span>
+                        <i data-lucide="plus" class="accordion-icon w-4 h-4 text-brand transition-transform duration-300 shrink-0"></i>
+                    </button>
+                    <div class="accordion-content text-brand-graphite text-sm leading-relaxed opacity-70">
+                        <div class="pb-8">
+                            De forma alguma. O curso ensina os limites da sua atuação: como prevenir, como identificar problemas iniciais e, principalmente, o momento exato de encaminhar a cliente para um médico oftalmologista.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="accordion-item border-b border-brand-border">
+                    <button class="accordion-button w-full py-8 text-left flex justify-between items-center focus:outline-none" aria-expanded="false">
+                        <span class="font-bold text-xs uppercase tracking-widest text-brand-black pr-8">Como funciona a garantia de 7 dias?</span>
+                        <i data-lucide="plus" class="accordion-icon w-4 h-4 text-brand transition-transform duration-300 shrink-0"></i>
+                    </button>
+                    <div class="accordion-content text-brand-graphite text-sm leading-relaxed opacity-70">
+                        <div class="pb-8">
+                            A partir do momento da compra, você tem 7 dias corridos para acessar a plataforma. Se achar que o conteúdo não atende suas expectativas, basta solicitar o reembolso na própria Hotmart e 100% do valor será devolvido.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="accordion-item border-b border-brand-border">
+                    <button class="accordion-button w-full py-8 text-left flex justify-between items-center focus:outline-none" aria-expanded="false">
+                        <span class="font-bold text-xs uppercase tracking-widest text-brand-black pr-8">Recebo certificado?</span>
+                        <i data-lucide="plus" class="accordion-icon w-4 h-4 text-brand transition-transform duration-300 shrink-0"></i>
+                    </button>
+                    <div class="accordion-content text-brand-graphite text-sm leading-relaxed opacity-70">
+                        <div class="pb-8">
+                            Sim! Ao concluir todas as aulas, você recebe um certificado digital de conclusão em saúde ocular aplicada à prática lash, que pode ser impresso e exposto no seu estúdio.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="accordion-item border-b border-brand-border">
+                    <button class="accordion-button w-full py-8 text-left flex justify-between items-center focus:outline-none" aria-expanded="false">
+                        <span class="font-bold text-xs uppercase tracking-widest text-brand-black pr-8">Como acesso o conteúdo após a compra?</span>
+                        <i data-lucide="plus" class="accordion-icon w-4 h-4 text-brand transition-transform duration-300 shrink-0"></i>
+                    </button>
+                    <div class="accordion-content text-brand-graphite text-sm leading-relaxed opacity-70">
+                        <div class="pb-8">
+                            O acesso é imediato após a confirmação do pagamento. Você receberá um e-mail da Hotmart com seu login e senha para acessar a área de membros exclusiva. Pode assistir pelo celular, tablet ou computador.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- J) FOOTER -->
+    <footer class="bg-white border-t border-brand-border pt-24 pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-12 mb-20 text-center md:text-left">
+                
+                <div>
+                    <span class="editorial-heading text-2xl text-brand-black block mb-4">Dr. Marcelo Brito</span>
+                    <p class="text-gray-400 text-[10px] font-bold uppercase tracking-widest max-w-xs leading-relaxed">
+                        Transformando medo em clareza através da oftalmologia aplicada à prática lash.
+                    </p>
+                </div>
+
+                <div class="flex flex-wrap justify-center md:justify-end gap-10 text-[10px] font-bold uppercase tracking-widest text-brand-black">
+                    <a href="#conteudo" class="hover:text-brand transition-colors">Conteúdo</a>
+                    <a href="#bonus" class="hover:text-brand transition-colors">Bônus</a>
+                    <a href="#provas" class="hover:text-brand transition-colors">Provas</a>
+                    <a href="#garantia" class="hover:text-brand transition-colors">Garantia</a>
+                    <a href="#sobre" class="hover:text-brand transition-colors">Sobre</a>
+                </div>
+
+            </div>
+
+            <div class="border-t border-brand-border pt-12 flex flex-col items-center text-center gap-8">
+                <p class="text-[10px] text-gray-400 max-w-2xl leading-relaxed uppercase tracking-widest font-medium">
+                    Aviso Legal: Este treinamento é estritamente educacional e voltado para a capacitação profissional. As informações aqui contidas não substituem, em hipótese alguma, a avaliação, diagnóstico ou tratamento médico. Em caso de intercorrências clínicas, a cliente deve ser sempre orientada a buscar um oftalmologista.
+                </p>
+                
+                <div class="flex flex-col items-center gap-2">
+                    <p class="text-[10px] text-brand-black font-bold tracking-widest uppercase">
+                        &copy; <script>document.write(new Date().getFullYear())</script> Dr. Marcelo Brito. Todos os direitos reservados.
+                    </p>
+                    <p class="text-[9px] text-gray-300 uppercase tracking-widest">Design Editorial Premium</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+    
+    <!-- Custom JS -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
